@@ -217,9 +217,10 @@ p {
 .takeaways li {
   margin-block: 0.5em;
 }
+
 .project button,
 .project .button,
-.blog button,
+.blog .button,
 .about-me button {
   padding: 1em 0.75em;
   color: black;
@@ -238,14 +239,14 @@ p {
   transition: all 0.25s;
 }
 .project button:hover,
-.blog button:hover,
+.blog .button:hover,
 .about-me button:hover,
 .project .button:hover {
   background-color: rgb(229, 226, 226);
   transform: scale(0.9);
 }
 .project button:active,
-.blog button:active,
+.blog .button:active,
 .about-me button:active,
 .project .button:active {
   transform: scale(0.75);
@@ -424,6 +425,9 @@ a[href*="mailto"] {
     margin-inline: auto;
     justify-content: stretch;
   }
+  .blog {
+    flex-wrap: wrap-reverse;
+  }
   .button-group {
     display: flex;
     justify-content: center;
@@ -542,6 +546,11 @@ a[href*="mailto"] {
     width: 50px;
     height: 50px;
   }
+}
+.blog .button {
+  margin-top: 2.5em;
+  color: white !important;
+  background-color: black !important;
 }
 
 /* animation */

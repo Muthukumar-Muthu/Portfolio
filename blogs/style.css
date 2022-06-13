@@ -1,0 +1,12 @@
+.wrapper {
+  width: 90%;
+  margin-inline: auto;
+}
+h2 {
+  margin-block: 1em;
+}
+@media (max-width: 426px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+}
