@@ -487,10 +487,9 @@
                 <a href="./blogs/blog1.html" class="button ">Read More</a>
             </div>
             <div class="right">
-                <h1 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi distinctio minima</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos corporis praesentium repellendus
-                    ad deserunt animi ducimus sequi voluptas eveniet, delectus quo quibusdam dolor asperiores iste
-                    minima? Ullam labore at quis?
+                <h1 class="title">Scopes In JavaScript</h1>
+                <p>Scope refers to the availability of variables and functions in certain parts of the code. Let deep
+                    dive into that topic
                 </p>
 
 
@@ -520,25 +519,14 @@
                 <div class="picture">
                     <img src="./assests/profile-pic (1).jpeg" alt="Muthukumar's photo">
                 </div>
-                <button>Get My resume</button>
+
 
             </div>
             <div class="right">
-                <p>My interest in technology started when I was a teenager and dial-up Internet connections were
-                    booming. I
-                    still remember
-                    plugging in a 10 metres telephone cable to my PC from the phone box every night to avoid keeping my
-                    family’s phone line
-                    busy during peak hours.</p>
-                <p>In those days I started playing with Linux as well, thanks to a book about the Slackware distro that
-                    I
-                    bought and came
-                    with a set of floppy disks. I right away noticed the importance of having a backup of your files,
-                    because I ended up
-                    formatting the hard drive multiple times due to the learning process.</p>
-                <p>Around the same time, I also started playing with scripting on several IRC programs. In those days,
-                    social networks as
-                    we know them today didn’t exist, so the “chat rooms” were the closest we could get.</p>
+                <p>
+                    I’m a Web Developer based in Tamil Nadu, India. Even though I have a Electrical Engineering
+                    degree, coding is my passion. To be specific working with front end has become my passion.
+                </p>
                 <div>
                     <h2 class="title">My tech stack</h2>
                     <span>I'm proficient with the following relevant technologies:</span>
@@ -596,8 +584,11 @@
             </div>
         </div>
 
-        <div class="copyright">© Copyright 2022. Made by <a href="mailto:m.m.muthu1388@gmail.com">Muthukumar M</a></div>
-
+        <div class="copyright">© Copyright <span id="year"></span>. Made by <a
+                href="mailto:m.m.muthu1388@gmail.com">Muthukumar M</a></div>
+        <script>
+            document.querySelector('#year').textContent = new Date().getFullYear()
+        </script>
     </footer>
     <div style="text-align:right;color:lightgrey">Text gradient animation by <a style="text-decoration: underline;"
             href="https://www.damiandemasi.com/">damian
