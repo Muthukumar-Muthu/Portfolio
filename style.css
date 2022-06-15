@@ -488,10 +488,11 @@ a[href*="mailto"] {
     height: 0;
     width: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     overflow: hidden;
   }
   nav ul li {
+    margin: 0;
     margin-block: 1em;
   }
   nav {
